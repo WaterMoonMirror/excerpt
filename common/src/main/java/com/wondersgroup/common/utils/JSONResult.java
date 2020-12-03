@@ -46,7 +46,11 @@ public class JSONResult {
     public static JSONResult build(Integer status, String msg, Object data, String ok) {
         return new JSONResult(status, msg, data, ok);
     }
-    
+
+
+    public static JSONResult errorUserTicket(String msg) {
+        return new JSONResult(557, msg, null);
+    }
     public static JSONResult ok(Object data) {
         return new JSONResult(data);
     }

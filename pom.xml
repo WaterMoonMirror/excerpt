@@ -9,6 +9,7 @@
         <module>excerpt-pojo</module>
         <module>excerpt-service</module>
         <module>common</module>
+        <module>excerpt-sso</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
